@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HeartRateTracker-PartStart-2018.iml" filepath="$PROJECT_DIR$/HeartRateTracker-PartStart-2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cis-3334-unit-5-heart-rate-jonbernhardt.iml" filepath="$PROJECT_DIR$/cis-3334-unit-5-heart-rate-jonbernhardt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrate/hrate.iml" filepath="$PROJECT_DIR$/hrate/hrate.iml" />
     </modules>
   </component>
 </project>
