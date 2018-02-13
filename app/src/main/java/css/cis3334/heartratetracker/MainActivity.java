@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         tvSelect = (TextView) findViewById(R.id.tvSelectText);
 
         heartRateList = new HeartRateList();
-        heartRateList.InitRandomElderly();
+        heartRateList.InitRandomYouth();
 
         hrAdapter = new HeartRateAdapter(this, R.layout.heart_rate_row, R.id.textViewPulse, heartRateList);
         hrAdapter.setDropDownViewResource(R.layout.heart_rate_row);
@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
                 HeartRate hr = (HeartRate) parent.getItemAtPosition(position);
-                tvSelect.setText("You selected: " + hr.toString());
+                tvSelect.setText("You selected: " + hr.toString() + "\n" + "Description: " + hr.getRangeDescrtiption() );
+
             }
         });
     }
