@@ -72,7 +72,7 @@ public class HeartRateAdapter  extends ArrayAdapter<HeartRate> {
             case 5:
                 tvPulse.setBackgroundColor(ContextCompat.getColor(context, R.color.colorZone6));
                 break;
-            default:
+            default: //Should not happen, catching in case of error
                 tvPulse.setBackgroundColor(ContextCompat.getColor(context, R.color.colorZone1));
         }
 

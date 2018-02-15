@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="Select a heart rate measurement"/>
+        android:text="@string/select_hr_text"/>
 
     <ListView
         android:id="@+id/lvHeartRateList"
